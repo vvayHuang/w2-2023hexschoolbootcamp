@@ -1,0 +1,30 @@
+.btn-secondary {
+    border-radius: 32px;
+    background: $secondary;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-family: 'Bruno Ace', cursive;
+    transition: all .5s ease;
+    border: 1px solid $primary;
+    &:hover{
+        background: $primary;
+        color: $secondary;
+        border: 1px solid $secondary;
+    }
+}
+
+.btn-primary {
+    border-radius: 32px;
+    background: $primary;
+    color: $secondary;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-family: 'Bruno Ace', cursive;
+    transition: all .5s ease;
+    border: 1px solid $secondary;
+    &:hover{
+        background: $secondary;
+        color: $primary;
+        border: 1px solid $primary;
+    }
+}

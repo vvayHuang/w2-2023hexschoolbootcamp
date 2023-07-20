@@ -1,0 +1,14 @@
+//reset
+@import "./base/reset";
+//base
+@import "./base/base";
+//font
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+//grid
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+//utilities
+@import "./helpers/utilities";
+//components
+@import "./components/btn";
+@import "./components/card";
+@import "./components/social-icon";

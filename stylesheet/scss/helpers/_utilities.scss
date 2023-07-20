@@ -1,0 +1,96 @@
+.container {
+    max-width: 1296px;
+}
+
+.h1 {
+    color: $green;
+    font-size: 128px;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.h2 {
+    color: $secondary;
+    font-size: 64px;
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+.fs-1 {
+    color: $primary;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.fs-2 {
+    color: $primary;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.fs-3 {
+    color: $primary;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 4px;
+}
+
+.bg-gradient {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.bg-primary {
+    background-color: $primary;
+}
+
+.text-secondary {
+    color: $secondary;
+}
+
+.pt-40px {
+    padding-top: 40px;
+}
+
+.py-40px {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.py-72px {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.py-96px {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.py-160px {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: $primary;
+}
+
+.text-secondary {
+    color: $secondary;
+}
+
+.h-100 {
+    height: 100%;
+}
